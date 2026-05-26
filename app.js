@@ -90,63 +90,63 @@ const products = [
   {
     id: 1,
     name: "Sandalwood Soap",
-    price: 199,
+    price: 59,
     image: "piics/1.png"
   },
 
   {
     id: 2,
     name: "Lavender Soap",
-    price: 249,
+    price: 59,
     image: "piics/2.jpg"
   },
 
   {
     id: 3,
     name: "Glycerine Soap",
-    price: 299,
+    price: 59,
     image: "piics/3.jpg"
   },
 
   {
     id: 4,
     name: "Neem Soap",
-    price: 279,
+    price: 59,
     image: "piics/4.jpg"
   },
 
   {
     id: 5,
     name: "Multani Mitti Soap",
-    price: 279,
+    price: 59,
     image: "piics/5.jpg"
   },
 
   {
     id: 6,
     name: "Aloe Vera Soap",
-    price: 279,
+    price: 59,
     image: "piics/6.jpg"
   },
 
   {
     id: 7,
     name: "Neem + Turmeric Soap",
-    price: 279,
+    price: 59,
     image: "piics/7.jpg"
   },
 
   {
     id: 8,
     name: "De-Tan Soap(gram flour + mulani mitti)",
-    price: 279,
+    price: 59,
     image: "piics/8.jpg"
   },
 
   {
     id: 9,
     name: "7 in 1 scrub + facepack",
-    price: 279,
+    price: 49,
     image: "piics/9.jpg"
   }
 
