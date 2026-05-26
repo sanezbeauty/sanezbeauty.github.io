@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SANÉZ BEAUTY</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (NEW - GLOBAL SYSTEM STARTS) -->
+    <nav class="navbar">
+        <div class="logo">SANÉZ BEAUTY</div>
+
+        <button class="cart-btn" onclick="openCart()">
+            🛒 <span id="cartCount">0</span>
+        </button>
+    </nav>
+
+    <!-- HERO (UNCHANGED DESIGN) -->
+    <section class="hero">
+        <div class="glow glow1"></div>
+        <div class="glow glow2"></div>
+
+        <div class="hero-content">
+            <div class="hero-text hidden">
+                <small>Luxury skincare brand</small>
+                <h1 class="hh">SANÉZ BEAUTY</h1>
+
+                <p>
+                    Experience luxury skincare made with premium natural ingredients, elegant fragrances, and luxurious
+                    beauty care..
+                </p>
+
+                <div class="buttons">
+                    <!-- NOW FUNCTIONAL -->
+                    <button class="btn primary-btn" onclick="goToShop()">
+                        Shop Now
+                    </button>
+
+                    <button class="btn secondary-btn" onclick="goToShop()">
+                        Explore Collection
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-image hidden">
+                <img src="soap.png" alt="Soap">
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES (UNCHANGED DESIGN) -->
+    <section>
+        <div class="section-title hidden">
+            <h2>Why Choose Sanez Beauty?</h2>
+
+            <p>
+                Crafted with love, inspired by nature, and designed to nourish your skin naturally.
+            </p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card hidden">
+                <h3>100% Handmade</h3>
+                <p>Every soap bar is carefully handcrafted using premium ingredients.</p>
+            </div>
+
+            <div class="feature-card hidden">
+
+                <h3>Natural Ingredients</h3>
+                <p>Made using skin-friendly oils without harsh chemicals.</p>
+            </div>
+
+            <div class="feature-card hidden">
+                    
+                <h3>Luxury Experience</h3>
+                <p>Elegant fragrances and smooth textures for everyday skincare.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SANÉZ BEAUTY - Collection</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR (GLOBAL) -->
+<nav class="navbar">
+  <div class="logo">SANÉZ BEAUTY</div>
+
+  <div class="cart" onclick="openCart()">
+    🛒 <span id="cartCount">0</span>
+  </div>
+</nav>
+
+<!-- TITLE -->
+<section class="page active">
+  <h2 class="section-title">Our Collection</h2>
+
+  <div id="products" class="grid"></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

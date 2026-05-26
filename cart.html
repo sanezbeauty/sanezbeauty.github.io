@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - SANÉZ BEAUTY</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">SANÉZ BEAUTY</div>
+
+  <div class="cart" onclick="goToShop()">
+    🛒 <span id="cartCount">0</span>
+  </div>
+</nav>
+
+<!-- CART SECTION -->
+<section class="cart-page">
+
+  <h2 class="section-title">Your Shopping Cart</h2>
+
+  <div id="cartItems" class="cart-container"></div>
+
+  <div class="cart-footer">
+    <h3 id="totalPrice">Total: ₹0</h3>
+
+    <button onclick="goToPayment()" class="checkout-btn">
+      Proceed to Checkout
+    </button>
+  </div>
+
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
